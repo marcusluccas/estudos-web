@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais formatações</title>
+</head>
+<body>
+    <h1>Mais formatações</h1>
+    <h2>Techos de codigos</h2>
+    <p>Para fazer um <code>trecho de um codigo</code> é só usar a tag code</p>
+    <h2>Citações Simples</h2>
+    <p>Para fazer uma citação à um autor por exemplo Elon Mask (ele não dize tá) <q>Nem toda a treta começa no twitter mas todas acabam no twitter</q> é só usar a tag q</p>
+    <h2>Citações completas</h2>
+    <p>Para fazer um citação completo exemplo já dizia Gustavo Guanabara <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=25">Bem vindo ao seu curso de html</blockquote> é só usar a tag blockquote e o parámetro cite= o link para citação</p>
+    <h2>Texto pré-formatado</h2>
+    <p>Exemplo um codigo ele fica com todo certinho é só usar a tag pre
+        <pre>
+        private void Move()
+        {
+            myAnimator.SetBool("Move", false);
+    
+            if (Collider())
+            {
+                myRB.velocity = new Vector2(myRB.velocity.x * -1, myRB.velocity.y);
+            }
+    
+            waitMove -= Time.deltaTime;
+            if (waitMove &lt;= 0f)
+            {
+                myRB.velocity = new Vector2(myVelocity * direction, 0f);
+                waitMove = Random.Range(5, 8);
+                direction = Random.Range(-1, 2);
+            }
+    
+            if (myRB.velocity.x != 0f)
+            {
+                transform.localScale = new Vector3(Mathf.Sign(myRB.velocity.x) * -1, 1f, 1f);
+                myAnimator.SetBool("Move", true);
+            }
+        }
+        </pre>
+    </p>
+    <h2>Abreviações</h2>
+    <p>Para fazer uma abreviação exemplo : <abbr title="HyperText Markup Linguage">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> é só usar a tag abbr e o parámetro title = texto sem abreviação</p>
+    <h2>Texto Inverdidos</h2>
+    <p>Para fazer um <bdo dir="rtl">texto inverdido</bdo> é só usar tag bdo : r ou bdo : l</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+
+    background-color: rgb(183, 208, 255);
+}
+h1{
+    color:rgb(41, 116, 91);
+    font-family: Verdana;
+    font-size: 40pt;
+}
+h2{
+    color: blueviolet;
+    font-family: Verdana;
+    font-size: 30pt;
+}
+h3{
+    color: rgb(80, 30, 128);
+    font-family: Verdana;
+    font-size: 20pt;
+}
+h4{
+    color: rgb(47, 27, 66);
+    font-family: Verdana;
+    font-size: 15pt;
+}
+p{
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 15pt;
+}
+small{
+    font-size: 10pt;
+}
+a{
+    color:crimson;
+    font-family: Verdana;
+}
