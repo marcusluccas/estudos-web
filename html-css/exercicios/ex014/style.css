@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    background-color: khaki;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    color: cornflowerblue;
+    font-size: 3em;
+}
+h2{
+    color: darkgoldenrod;
+    font-size: 2em;
+}
+a{
+    color: crimson
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.the-robert-1-hex { color: #E5E5E5; }
+.the-robert-2-hex { color: #EADBC6; }
+.the-robert-3-hex { color: #E9AD63; }
+.the-robert-4-hex { color: #264775; }
+.the-robert-5-hex { color: #0D1827; }
+
+/* Color Theme Swatches in RGBA */
+.the-robert-1-rgba { color: rgba(229, 229, 229, 1); }
+.the-robert-2-rgba { color: rgba(234, 218, 198, 1); }
+.the-robert-3-rgba { color: rgba(233, 173, 99, 1); }
+.the-robert-4-rgba { color: rgba(38, 71, 117, 1); }
+.the-robert-5-rgba { color: rgba(13, 23, 39, 1); }
+
+/* Color Theme Swatches in HSLA */
+.the-robert-1-hsla { color: hsla(70, 0, 89, 1); }
+.the-robert-2-hsla { color: hsla(34, 46, 84, 1); }
+.the-robert-3-hsla { color: hsla(33, 75, 65, 1); }
+.the-robert-4-hsla { color: hsla(214, 50, 30, 1); }
+.the-robert-5-hsla { color: hsla(215, 49, 10, 1); }
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #E5E5E5, #EADBC6);
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #9c999393;
+    margin: auto;
+}
+
+h1 {
+    color: #E9AD63;
+    text-align: center;
+    text-shadow: 1px 1px 2px #81644094;
+}
+
+h2 {
+    color: #264775;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,36 +1,53 @@
-body{
+/* Color Theme Swatches in Hex */
+.My-Color-Web-1-hex { color: #319BE6; }
+.My-Color-Web-2-hex { color: #E62F3B; }
+.My-Color-Web-3-hex { color: #E57400; }
+.My-Color-Web-4-hex { color: #FABB5F; }
+.My-Color-Web-5-hex { color: #4E6CEB; }
 
-    background-color: rgb(183, 208, 255);
+/* Color Theme Swatches in RGBA */
+.My-Color-Web-1-rgba { color: rgba(49, 155, 230, 1); }
+.My-Color-Web-2-rgba { color: rgba(230, 47, 59, 1); }
+.My-Color-Web-3-rgba { color: rgba(229, 116, 0, 1); }
+.My-Color-Web-4-rgba { color: rgba(250, 187, 95, 1); }
+.My-Color-Web-5-rgba { color: rgba(78, 108, 235, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Web-1-hsla { color: hsla(204, 78, 54, 1); }
+.My-Color-Web-2-hsla { color: hsla(356, 78, 54, 1); }
+.My-Color-Web-3-hsla { color: hsla(30, 100, 44, 1); }
+.My-Color-Web-4-hsla { color: hsla(35, 93, 67, 1); }
+.My-Color-Web-5-hsla { color: hsla(228, 79, 61, 1); }
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana;
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
 h1{
-    color:rgb(41, 116, 91);
-    font-family: Verdana;
-    font-size: 40pt;
+    color: #319BE6;
+    font-size: 4em;
 }
 h2{
-    color: blueviolet;
-    font-family: Verdana;
-    font-size: 30pt;
+    font-size: 3.5em;
 }
 h3{
-    color: rgb(80, 30, 128);
-    font-family: Verdana;
-    font-size: 20pt;
+    font-size: 3em;
 }
 h4{
-    color: rgb(47, 27, 66);
-    font-family: Verdana;
-    font-size: 15pt;
+    font-size: 2.5em;
 }
-p{
-    color: darkblue;
-    font-family: sans-serif;
-    font-size: 15pt;
-}
-small{
-    font-size: 10pt;
+h5{
+    font-size: 2em;
 }
 a{
-    color:crimson;
-    font-family: Verdana;
+    color:#E62F3B;
+}
+ins{
+    color: #E57400;
+}
+abbr{
+    color: #4E6CEB;
 }
